@@ -23,6 +23,8 @@
 -(void)createFunction{
 
 
+    NSLog(@"test");
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
