@@ -22,6 +22,7 @@
 }
 -(void)createFunction{
 
+    NSLog(@"Learning git opration!");
 
 }
 - (void)didReceiveMemoryWarning {
