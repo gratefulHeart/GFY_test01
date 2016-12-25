@@ -28,6 +28,11 @@
 }
 -(void)createBranch{
 
+    NSLog(@"i can fly");
+}
+-(void)createIdeaBranch{
+
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
