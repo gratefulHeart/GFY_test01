@@ -24,7 +24,10 @@
 
 
     NSLog(@"test");
-    
+    NSLog(@"create a idea branch");
+}
+-(void)createBranch{
+
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
