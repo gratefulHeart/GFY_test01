@@ -30,7 +30,7 @@
 
     NSLog(@"i can fly");
 }
--(void)createIdeaBranch{
+-(void)createIdeaBranch {
 
     
 }
