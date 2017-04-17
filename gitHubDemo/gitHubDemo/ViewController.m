@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FirstViewController.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,17 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     NSLog(@"master!!!!");
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [btn setFrame:CGRectMake(100, 100, 100, 60)];
+    [btn setTitle:@"ceshi" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+}
+- (void)btnClick {
+
+    
+    
 }
 -(void)createFunction{
 
@@ -29,6 +41,10 @@
 -(void)createBranch{
 
     NSLog(@"i can fly");
+}
+- (void)createNewFunction {
+
+    NSLog(@"%@",@"hehehe");
 }
 -(void)createIdeaBranch {
 
