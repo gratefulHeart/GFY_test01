@@ -15,6 +15,7 @@
 		C60C04701E0F9D80009244A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60C046E1E0F9D80009244A9 /* LaunchScreen.storyboard */; };
 		C60C047B1E0F9D80009244A9 /* gitHubDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C60C047A1E0F9D80009244A9 /* gitHubDemoTests.m */; };
 		C60C04861E0F9D80009244A9 /* gitHubDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C60C04851E0F9D80009244A9 /* gitHubDemoUITests.m */; };
+		C62EB41E1EA5A02F001BE6EF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62EB41D1EA5A02F001BE6EF /* SecondViewController.m */; };
 		C66FA2681EA4CCCA00C0DFA9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66FA2671EA4CCCA00C0DFA9 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		C60C04811E0F9D80009244A9 /* gitHubDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitHubDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60C04851E0F9D80009244A9 /* gitHubDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitHubDemoUITests.m; sourceTree = "<group>"; };
 		C60C04871E0F9D80009244A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62EB41C1EA5A02F001BE6EF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C62EB41D1EA5A02F001BE6EF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C66FA2661EA4CCCA00C0DFA9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		C66FA2671EA4CCCA00C0DFA9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +113,8 @@
 				C60C04671E0F9D80009244A9 /* ViewController.m */,
 				C66FA2661EA4CCCA00C0DFA9 /* FirstViewController.h */,
 				C66FA2671EA4CCCA00C0DFA9 /* FirstViewController.m */,
+				C62EB41C1EA5A02F001BE6EF /* SecondViewController.h */,
+				C62EB41D1EA5A02F001BE6EF /* SecondViewController.m */,
 				C60C04691E0F9D80009244A9 /* Main.storyboard */,
 				C60C046C1E0F9D80009244A9 /* Assets.xcassets */,
 				C60C046E1E0F9D80009244A9 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62EB41E1EA5A02F001BE6EF /* SecondViewController.m in Sources */,
 				C60C04681E0F9D80009244A9 /* ViewController.m in Sources */,
 				C60C04651E0F9D80009244A9 /* AppDelegate.m in Sources */,
 				C60C04621E0F9D80009244A9 /* main.m in Sources */,
