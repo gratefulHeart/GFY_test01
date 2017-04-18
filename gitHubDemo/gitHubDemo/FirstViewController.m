@@ -29,7 +29,10 @@
     [self.view addSubview:btn];
 
 }
+- (void)btnClick {
 
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
