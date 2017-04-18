@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @interface FirstViewController ()
 
@@ -30,7 +31,9 @@
 
 }
 - (void)btnClick {
-
+    
+    SecondViewController *secVC = [[SecondViewController alloc]init];
+    [self.navigationController pushViewController:secVC animated:YES];
     
 }
 - (void)didReceiveMemoryWarning {
