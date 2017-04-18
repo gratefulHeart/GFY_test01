@@ -21,6 +21,13 @@
     UILabel * l = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     l.text = @"哈哈哈哈";
     [self.view addSubview:l];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [btn setFrame:CGRectMake(100, 100, 100, 60)];
+    [btn setTitle:@"second" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+
 }
 
 - (void)didReceiveMemoryWarning {
