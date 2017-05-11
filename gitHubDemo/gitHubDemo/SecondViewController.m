@@ -23,7 +23,10 @@
     [self.view addSubview:l];
     
 }
+- (void)aaaaaa{
 
+    NSLog(@"需要提交仓库的代码！");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
