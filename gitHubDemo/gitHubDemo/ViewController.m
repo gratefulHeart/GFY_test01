@@ -29,7 +29,7 @@
 }
 - (void)btnClick {
 
-    
+    NSLog(@"测试一下，就是不提代码！");
     
 }
 -(void)createFunction{
